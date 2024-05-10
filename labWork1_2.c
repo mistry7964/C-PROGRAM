@@ -2,15 +2,15 @@
 int main()
 {
     // Q.1 Write a Program to print your name, age, and school.
-    // int age;
-    // char name[10],schoolName[20];
-    // printf("Enter your name : ");
-    // scanf("%s",&name);
-    // printf("Enter you age : ");
-    // scanf("%d",&age);
-    // printf("Enter your schoolName : ");
-    // scanf("%s",&schoolName);
-    // printf("My name is %s and my age is %d and my school name is %s",name,age,schoolName);
+    int age;
+    char name[10],schoolName[20];
+    printf("Enter your name : ");
+    scanf("%s",&name);
+    printf("Enter you age : ");
+    scanf("%d",&age);
+    printf("Enter your schoolName : ");
+    scanf("%s",&schoolName);
+    printf("My name is %s and my age is %d and my school name is %s",name,age,schoolName);
     // To print pattern
     int i,j;
     for(i=1;i<=7;i++)
