@@ -1,0 +1,26 @@
+#include<stdio.h>
+int main()
+{
+//         1
+//       2 1
+//     3 2 1
+//   4 3 2 1
+// 5 4 3 2 1 
+    int i,j;
+    for ( i = 1; i <= 5; i++)
+    {
+        for ( j = 5; j >= 1; j--)
+        {
+            if(i >= j)
+            {
+                printf("%d",j);
+            }
+            else
+            {
+                printf(" ");
+            }           
+        }
+        printf("\n");
+    }
+    return 0;
+}

@@ -13,10 +13,8 @@ int main()
         x=i;
         for ( j = 5; j >= i; j--)
         {
-           
             printf("%d",x); 
-            x++;
-            
+            x++;   
         }
         printf("\n");
     }
